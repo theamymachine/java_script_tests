@@ -37,3 +37,7 @@ console.log("Quel âge aurait chaque inventeur aujourd'hui ?");
         ageNow = 2020 - birth.year;
         console.log(`${birth.first + " " + birth.last} = ${ageNow}ans`)
     });
+
+console.log("Trier par ordre alphabetique");
+console.log(entrepreneurs.sort((a, b) => a.last.localeCompare(b.last)));
+
